@@ -48,8 +48,8 @@ body{
 
 #sign-up{
     text-decoration: none;
-    font-weight: lighter;
-    border: 0.5px solid white;
+    font-weight: 400;
+    border: 1px solid white;
     border-radius: 25px;
     color: white;
     padding: 5px;
