@@ -56,6 +56,10 @@ body{
     margin: 10px;
     flex-shrink: 2;
 }
+#sign-up:active, #sign-up:focus{
+   -webkit-tap-highlight-color: transparent;
+}
+
 
 #bottom-nav-bar{
     height: 70px;
