@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins";
+    margin: 1px;
+}
+
+body{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#sign-up-heading{
+    padding:  5px 5px 2px 5px;
+    font-size: large;
+    align-self: center;
+    
+}
+
+label{
+    padding:  5px 0px 3px 5px;
+    margin: 1px;
+}
+
+input{
+    margin: 5px;
+    padding:10px;
+    border: black 0.1px solid;
+    border-radius: 3.5px;
+    
+}
+
+#sign-up{
+    background-color: #6950a3;
+    color: white;
+    width: 100%;
+    margin: 0px 15px 20px 15px;
+    align-self: center;
+    border: 0px solid transparent;
+    font-size: large;
+    padding: 5px;
+    font-weight:500;
+    font-size: large;
+    border-radius: 5px;
+}
+
+#or{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+}
+
+#or:after,#or:before{
+    content:"";
+    flex: 1 1;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+
+#sign-up-with-google{
+    width: 100%;
+    align-self: center;
+    margin: 20px 15px 0px 15px;
+    color: black;
+    background-color: white;
+    border: black 0.5px solid;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#continue-with-google, #google-logo{
+    align-self: center;
+}
+#continue-with-google{
+    font-size: 14.5px;
+}
+
+footer{
+    align-self: center;
+    margin: 10px;
+}
+form>a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+   
