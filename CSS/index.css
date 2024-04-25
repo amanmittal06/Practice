@@ -68,7 +68,9 @@ body{
     align-items: center;
 }
 
-.bottom-nav-bar-icons{
+.bottom-nav-bar-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
-    font-size: larger;
 }
