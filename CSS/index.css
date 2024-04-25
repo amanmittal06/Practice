@@ -56,7 +56,8 @@ body{
     margin: 10px;
     flex-shrink: 2;
 }
-#sign-up:active, #sign-up:focus{
+
+html{
    -webkit-tap-highlight-color: transparent;
 }
 
